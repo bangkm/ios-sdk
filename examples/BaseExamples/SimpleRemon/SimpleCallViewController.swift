@@ -226,7 +226,7 @@ class SimpleCallViewController: UIViewController {
         // AVAudioSession.Mode.videoChat : 스피커 사용
         RemonClient.setAudioSessionConfiguration(
             category: AVAudioSession.Category.playAndRecord,
-            mode: AVAudioSession.Mode.videoChat,
+            mode: AVAudioSession.Mode.voiceChat,
             options: [] );
         
         
